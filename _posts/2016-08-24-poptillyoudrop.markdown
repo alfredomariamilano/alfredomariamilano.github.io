@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pop till you drop!"
+title: "POP TILL YOU DROP!"
 date: 2016-08-24
 categories:
   - General Assembly
