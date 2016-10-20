@@ -1,23 +1,23 @@
 # Site settings
-email: 
+email: alfmarmil@gmail.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
-google_analytics: 
+google_analytics:
 
 # SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
+title: AlfredoMM
+description:
+url: "alfredomariamilano.github.io"
+twitter_username: alfmarmil
+default_img:
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Alfredo Maria Milano
+profile_img:
+profile:
 social:
-  github: 
+  github: github.com/alfredomariamilano
 
 # Build settings
 include: ["_categories"]
