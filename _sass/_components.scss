@@ -1,7 +1,7 @@
 /**
- * Tabs
- * On the Blog page for posts and categories
- */
+* Tabs
+* On the Blog page for posts and categories
+*/
 .tabs {
   @extend %letter-spacing;
 
@@ -18,7 +18,7 @@
     padding-left: 10em;
     padding-right: 10em;
   }
-  
+
   &__item {
     cursor: pointer;
 
@@ -41,9 +41,9 @@
 }
 
 /**
- * Blog Post Preview
- * On the Blog page
- */
+* Blog Post Preview
+* On the Blog page
+*/
 .previews {
 
   &__container {
@@ -67,7 +67,7 @@
 
 .preview {
   transition: background-color 0.2s ease-in-out;
-  
+
   &:nth-child(even) {
     background-color: $color-white;
   }
@@ -121,9 +121,9 @@
 }
 
 /**
- * Category Card
- * On the blog page under category tab
- */
+* Category Card
+* On the blog page under category tab
+*/
 .cards {
   @include flex-grid(1, 2, $xxl: 3, $pad: 0.25em);
 
@@ -168,7 +168,7 @@
       &:after {
         opacity: 1;
       }
-      
+
       .card__more {
         box-shadow: inset 175px 0 0 0 $color-alpha;
         color: $color-white;
@@ -206,9 +206,9 @@
 }
 
 /**
- * Pagination
- * On the Blog page when enough posts to paginate
- */
+* Pagination
+* On the Blog page when enough posts to paginate
+*/
 .pagination {
   @extend %letter-spacing;
 
@@ -234,8 +234,8 @@
 }
 
 /**
- * Footer
- */
+* Footer
+*/
 .footer {
   display: flex;
   flex-direction: column;
@@ -264,14 +264,14 @@
 
     & > *:not(:last-child) {
       margin-right: 1em;
-    }    
+    }
   }
 }
 
 /**
- * Mast
- * On the Post page for the header section
- */
+* Mast
+* On the Post page for the header section
+*/
 .mast {
   position: relative;
 
@@ -303,8 +303,8 @@
 }
 
 /**
- * Navigation
- */
+* Navigation
+*/
 .nav {
   @extend %letter-spacing;
 
@@ -359,8 +359,8 @@
 }
 
 /**
- * Post
- */
+* Post
+*/
 .post {
   width: 90%;
   max-width: $mq-md;
@@ -372,7 +372,7 @@
     width: 55%;
   }
 
-  h1, 
+  h1,
   h2 {
     line-height: 1.2;
   }
@@ -399,8 +399,8 @@
 }
 
 /**
- * Profile Card
- */
+* Profile Card
+*/
 .profile {
   width: 90%;
   max-width: $mq-md;
@@ -424,18 +424,18 @@
 
   &__img {
     position: relative;
-
     min-height: 15em;
+    background-color: $color-white;
 
-    background-color: $color-black;
+    img {
+      width: auto;
+      max-height: 100%;
+      margin: 0 auto;
+    }
 
     @media (min-width: $mq-md) {
       flex-basis: 45%;
       max-width: 45%;
-    }
-
-    &:after {
-      @extend %overlay;
     }
   }
 
@@ -463,10 +463,18 @@
   }
 }
 
+.tab {
+  .profile {
+    @media (min-width: $mq-lg) {
+      width: 95%;
+    }
+  }
+}
+
 /**
- * Next Post
- * On the Post page for single post pagination
- */
+* Next Post
+* On the Post page for single post pagination
+*/
 .next {
   background-color: $color-black;
 
@@ -511,9 +519,9 @@
 }
 
 /**
- * Archives Page
- * Should be layout, but more elements added
- */
+* Archives Page
+* Should be layout, but more elements added
+*/
 .archives {
 
   &__header {
