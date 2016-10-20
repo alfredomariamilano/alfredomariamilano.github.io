@@ -6,18 +6,18 @@ paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: AlfredoMM
-description:
-url: "alfredomariamilano.github.io"
+title: alfredomm
+description: My personal portfolio
+url: "http://alfredomariamilano.github.io"
 twitter_username: alfmarmil
 default_img:
 
 # Profile settings
 name: Alfredo Maria Milano
-profile_img:
+profile_img: https://avatars0.githubusercontent.com/u/20406650?v=3&s=466
 profile:
 social:
-  github: github.com/alfredomariamilano
+  github: http://github.com/alfredomariamilano
 
 # Build settings
 include: ["_categories"]
