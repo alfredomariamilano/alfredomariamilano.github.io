@@ -1,13 +1,13 @@
 /**
- * Body
- */
+* Body
+*/
 body {
   background-color: $color-grey;
 }
 
 /**
- * Sections
- */
+* Sections
+*/
 section {
   position: relative;
 }
@@ -25,16 +25,16 @@ section {
 }
 
 /**
- * Class Container (BEM)
- */
+* Class Container (BEM)
+*/
 [class*='__container'] {
   position: relative;
   z-index: 1;
 }
 
 /**
- * Blog page
- */
+* Blog page
+*/
 .previews {
 
   @media (max-width: $mq-md) {
@@ -73,4 +73,11 @@ section {
       }
     }
   }
+}
+
+/**
+* About page
+*/
+#about {
+  padding: 2em 1em;
 }

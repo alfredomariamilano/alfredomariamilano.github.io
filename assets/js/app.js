@@ -47,7 +47,7 @@ var Tabs = (function() {
       }
     }
 
-  }
+  };
 })();
 
 var Preview = (function() {
@@ -84,7 +84,7 @@ var Preview = (function() {
             prevIdx = currentIdx;
             currentIdx = idx;
 
-            if (prevIdx !== currentIdx) {
+            if (prevIdx !== currentIdx && s.img[currentIdx] && s.img[prevIdx]) {
               s.img[prevIdx].style.display = 'none';
               s.img[currentIdx].style.display = 'block';
             }
@@ -92,7 +92,7 @@ var Preview = (function() {
         });
       }
     }
-  }
+  };
 })();
 
 var wow = new WOW({
