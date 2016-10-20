@@ -6,7 +6,7 @@ paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: alfredo</br>maria</br>milano
+title: alfredo maria milano
 description: My personal portfolio
 url: "http://alfredomariamilano.github.io"
 twitter_username: alfmarmil
