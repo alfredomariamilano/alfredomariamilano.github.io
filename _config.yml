@@ -7,7 +7,7 @@ google_analytics:
 
 # SEO settings
 title: alfredo maria milano
-description: My personal portfolio
+description: My portfolio
 url: "http://alfredomariamilano.github.io"
 twitter_username: alfmarmil
 default_img:
@@ -15,7 +15,7 @@ default_img:
 # Profile settings
 name: Alfredo Maria Milano
 profile_img: https://avatars0.githubusercontent.com/u/20406650?v=3&s=466
-profile:   As an avid internet user, I developed an increasing interest on how things work in the web. This led me to study using online platforms and then to enroll in Java course, while still having a full-time job. After realizing I was really enjoying programming, I decided to join a coding bootcamp to develop my skills in programming and start a new life, doing something that I really enjoy.
+profile:   As an avid internet user, I developed an increasing interest on how things work in the web. This led me to study using online platforms and then to enroll in a Java course, while still having a full-time job. After realizing I was really enjoying programming, I decided to join a coding bootcamp to develop my skills in programming and start a new life, doing something that I really enjoy.
 social:
   github: http://github.com/alfredomariamilano
 

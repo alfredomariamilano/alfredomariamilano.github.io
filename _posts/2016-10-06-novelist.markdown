@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NOVELIST"
-date: 2016-10-06
+date: 2016-10-18
 categories:
   - General Assembly
 description:
