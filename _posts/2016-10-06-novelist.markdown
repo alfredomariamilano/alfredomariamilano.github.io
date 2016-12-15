@@ -11,4 +11,4 @@ image-sm: https://source.unsplash.com/category/nature/500x300
 A group project from a team of 3 over the span of a week. After the users are logged in, they are invited to participate in group storytelling, where each user can write part of the story or start a new one, providing a title and being inspired by stunning pictures taken from the Unsplash API. The users can also comment on story they like and follow the stories they have participated in from their personal user page.
 <br>
 <br>
-<strong>Technology used:</strong> JavaScript (ES6), CSS3 (including Bootstrap, SCSS), Express, Node.js, MongoDB.
+<strong>Technologies used:</strong> JavaScript (ES6), CSS3 (including Bootstrap, SCSS), Express, Node.js, MongoDB.
