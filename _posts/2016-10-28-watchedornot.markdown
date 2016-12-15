@@ -15,4 +15,4 @@ The app lets the user register and displays random movie posters taken from the 
 <strong>Technologies used:</strong> Back-end in Ruby (Ruby on Rails, JWT authentication, bcrypt) and front-end in JavaScript (ES6, AngularJS), CSS3 (including Skeleton, SCSS), Express, Node.js.
 <br>
 <br>
-<a href="{{ page.link }}">Check it out!</a>
+<a href="{{ page.link }}" target="\_blank">Check it out!</a>

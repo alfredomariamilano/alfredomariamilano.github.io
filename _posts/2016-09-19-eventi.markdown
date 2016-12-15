@@ -15,4 +15,4 @@ A fully authenticated app to provide the users with useful information about dif
 <strong>Technologies used:</strong> JavaScript (ES6, translated to ES5 via gulp-babel for browser compatibility), CSS3 (including Bootstrap, SCSS), Express, Node.js, MongoDB.
 <br>
 <br>
-<a href="{{ page.link }}">Check it out!</a>
+<a href="{{ page.link }}" target="\_blank">Check it out!</a>

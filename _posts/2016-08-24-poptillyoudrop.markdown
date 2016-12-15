@@ -15,4 +15,4 @@ A simple videogame made after one week of learning in General Assembly. The goal
 <strong>Technologies used:</strong> JavaScript, jQuery, CSS3, HTML5.
 <br>
 <br>
-<a href="{{ page.link }}">Check it out!</a>
+<a href="{{ page.link }}" target="\_blank">Check it out!</a>
