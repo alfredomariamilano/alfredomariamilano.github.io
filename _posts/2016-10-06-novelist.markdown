@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NOVELIST"
+title: "THE NOVELISTS"
 date: 2016-10-18
 categories:
   - General Assembly
