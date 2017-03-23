@@ -18,7 +18,7 @@ Archive Page
 ![Archive Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
 
 ## Installation
-All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
+All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](https://bundler.io/) if it is not already) after cloning the repo.
 
 ## Edit Theme
 I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
@@ -61,7 +61,7 @@ I made everything as easy as possible to edit. Most things can be found in the `
 * ````name```` - Full name for SEO purposes
 * ````profile_img```` - Image for the profile card (size to 2000x1200px)
 * ````profile```` - Short description that will be in the profile card
-* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](https://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
 
 
 #### Build Settings
