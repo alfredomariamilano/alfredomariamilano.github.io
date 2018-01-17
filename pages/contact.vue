@@ -1,6 +1,23 @@
 <template lang="html">
   <section class="container transition-container">
-    <h1>contact</h1>
+    <div class="content-container md-scrollbar">
+      <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title">Here's my contact info</div>
+          <div class="md-subhead">You know, just in case</div>
+        </md-card-header>
+
+        <md-card-content>
+          <ul class="fa-ul">
+            <li><a href="mailto:hi@alfredomm.com"><span class="fa-li"><fa :icon="['fal', 'envelope']"/></span>hi@alfredomm.com</a></li>
+            <li><a href="https://github.com/alfredomariamilano"><span class="fa-li"><fa :icon="['fab', 'github']"/></span>Github</a></li>
+            <li><a href="http://linkedin.com/in/alfredomariamilano"><span class="fa-li"><fa :icon="['fab', 'linkedin']"/></span>Linkedin</a></li>
+          </ul>
+        </md-card-content>
+      </md-ripple>
+    </md-card>
+    </div>
   </section>
 </template>
 

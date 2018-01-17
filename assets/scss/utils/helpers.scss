@@ -9,3 +9,18 @@
 .secondary-font { font-family: $secondary-font; }
 
 .text-center { text-align: center; }
+
+.transition-container {
+  min-height: 100vh;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  max-width: 85%;
+  max-height: 80%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
