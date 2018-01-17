@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .navbar {
   text-align: right;
   padding: 15px;
@@ -32,14 +32,14 @@ export default {
   top: 0;
   left: 0;
   position: fixed;
-}
-.nuxt-link {
-  padding-left: 15px;
-  transition: all 0.5s ease;
-  opacity: 1;
-  &.nuxt-link-exact-active {
-    font-size: 0;
-    padding: 0;
+  .nuxt-link {
+    padding-left: 15px;
+    transition: all 0.5s ease;
+    opacity: 1;
+    &.nuxt-link-exact-active {
+      font-size: 0;
+      padding: 0;
+    }
   }
 }
 </style>
