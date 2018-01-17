@@ -1,58 +1,69 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        personal
-      </h1>
-      <h2 class="subtitle">
-        Alfredo Maria Milano's  portfolio.
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+  <section class="container transition-container">
+    <div id="scene" class="">
+      <div v-for="i in 9" :data-depth="i/100 + 0.5" class="layer" data-relative-input="true">
+        <div class="centered">
+          <!-- <nuxt-link to="contact" style="pointer-events: all;"> -->
+            <h1 class="logo primary-font" :class="[i%2===1 ? 'accent-color' : 'primary-color']">alfredo</h1>
+          <!-- </nuxt-link> -->
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Parallax from '~/plugins/parallax'
 
 export default {
+  transition (to, from) {
+    if (!from) return
+    let name = to.path === '/' ? 'slide-right' : 'slide-left'
+    return {
+      name,
+      mode: 'out-in'
+    }
+  },
   components: {
-    Logo
+  },
+  mounted () {
+    const scene = document.getElementById('scene')
+    const parallax = new Parallax(scene)
+    console.log(parallax)
   }
 }
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
+#scene {
+  width: 100%;
+  height: 100vh;
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  overflow: hidden;
+  .layer {
+    width: 100%;
+    height: 100%;
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    & .logo {
+      margin: 0;
+      font-size: 75px;
+      line-height: 1;
+      &:after {
+        content: "Web Developer";
+        position: absolute;
+        bottom: -20%;
+        right: 0;
+        font-size: 25%;
+      }
+      @media (min-width: 600px) {
+        font-size: 150px;
+      }
+    }
+  }
 }
 </style>

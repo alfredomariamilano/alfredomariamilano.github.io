@@ -7,7 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Alfredo Maria Milano's  portfolio.' }
+      { hid: 'description', name: 'description', content: 'My  portfolio.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -16,7 +16,19 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#00ff96' },
+  css: ['~/assets/scss/style.scss'],
+  // modules: [
+  //   'nuxt-vue-material'
+  // ],
+  // vueMaterial: {
+  //   theme: 'black-green-light',
+  //   css: true
+  // },
+  plugins: [
+    { src: '~/plugins/vue-material.js', ssr: false },
+    { src: '~/plugins/fontawesome.js', ssr: true }
+  ],
   /*
   ** Build configuration
   */
@@ -24,15 +36,15 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
+    // extend (config, { isDev, isClient }) {
+    //   if (isDev && isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
   }
 }

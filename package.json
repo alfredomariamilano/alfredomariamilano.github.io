@@ -1,7 +1,7 @@
 {
   "name": "personal",
   "version": "1.0.0",
-  "description": "Alfredo Maria Milano's  portfolio.",
+  "description": "My portfolio.",
   "author": "alfredomariamilano <alfmarmil@gmail.com>",
   "private": true,
   "scripts": {
@@ -13,7 +13,13 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "@fortawesome/fontawesome": "^1.1.2",
+    "@fortawesome/fontawesome-pro-light": "^5.0.4",
+    "@fortawesome/vue-fontawesome": "0.0.22",
+    "nuxt": "^1.0.0",
+    "nuxt-vue-material": "0.0.6",
+    "parallax-js": "^3.1.0",
+    "vue-material": "^1.0.0-beta-7"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -24,6 +30,10 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
   }
 }

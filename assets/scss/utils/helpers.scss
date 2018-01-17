@@ -1,0 +1,11 @@
+.primary-color { color: $primary-color !important; }
+.primary-color-hover:hover { color: $primary-color !important; }
+.primary-background { background-color: $primary-color !important; }
+.accent-color { color: $accent-color !important; }
+.accent-color-hover:hover { color: $accent-color !important; }
+.accent-background { background-color: $accent-color !important; }
+
+.primary-font { font-family: $primary-font; }
+.secondary-font { font-family: $secondary-font; }
+
+.text-center { text-align: center; }

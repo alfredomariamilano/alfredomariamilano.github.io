@@ -1,0 +1,50 @@
+@import "~vue-material/dist/theme/engine";
+
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/helpers';
+
+@include md-register-theme("default", (
+primary: $primary-color, // The primary color of your application
+accent: $accent-color // The accent or secondary color
+));
+
+@import "~vue-material/dist/theme/all";
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/1600x900/?psychedelic");
+  background-image: url("/images/psychedelic original.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.transition-container {
+  transition: all 500ms ease-in-out;
+}
+
+/*
+ * Slide Left
+ */
+.slide-left-enter, .slide-right-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slide-left-enter-to, .slide-left-leave, .slide-right-enter-to,
+.slide-right-leave {
+  opacity: 1;
+  transform: none;
+}
+
+.slide-left-leave-to, .slide-right-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
