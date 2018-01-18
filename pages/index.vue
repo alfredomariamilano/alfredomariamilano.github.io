@@ -33,7 +33,10 @@ export default {
   },
   mounted () {
     const scene = document.getElementById('scene')
-    const parallax = new Parallax(scene)
+    const parallax = new Parallax(scene, {
+      limitX: 50,
+      limitY: 50
+    })
     console.log(parallax)
     document.querySelector('.app-container').classList.add('visible')
   }
