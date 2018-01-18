@@ -16,4 +16,13 @@ export default {
 </script>
 
 <style lang="scss">
+.app-container {
+  * {
+    transition: all 0.5s ease;
+    opacity: 0;
+  }
+  &.visible * {
+    opacity: 1;
+  }
+}
 </style>

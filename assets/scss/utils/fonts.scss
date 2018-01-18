@@ -5,6 +5,18 @@
 }
 
 @font-face {
+  font-family: 'Decalotype';
+  src: url('/fonts/Decalotype/Decalotype-Regular.otf')  format('opentype'),
+	     url('/fonts/Decalotype/Decalotype-Regular.woff') format('woff'), url('/fonts/Decalotype/Decalotype-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'DecalotypeLight';
+  src: url('/fonts/Decalotype/Decalotype-Light.otf')  format('opentype'),
+	     url('/fonts/Decalotype/Decalotype-Light.woff') format('woff'), url('/fonts/Decalotype/Decalotype-Light.ttf')  format('truetype');
+}
+
+@font-face {
   font-family: 'DecalotypeBold';
   src: url('/fonts/Decalotype/Decalotype-Bold.otf')  format('opentype'),
 	     url('/fonts/Decalotype/Decalotype-Bold.woff') format('woff'), url('/fonts/Decalotype/Decalotype-Bold.ttf')  format('truetype');

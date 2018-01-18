@@ -23,6 +23,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  * {
+    font-family: DecalotypeLight, Roboto, Noto Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Decalotype, Roboto, Noto Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
 }
 
 .transition-container {

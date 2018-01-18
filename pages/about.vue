@@ -8,8 +8,8 @@
               <img src="/images/me.jpg" alt="Alfredo Maria Milano">
             </md-avatar>
             <md-card-header-text>
-              <div class="md-title">Alfredo Maria Milano</div>
-              <div class="md-subhead">Proudly Italian</div>
+              <h1 class="md-title">Alfredo Maria Milano</h1>
+              <h3 class="md-subhead">Proudly Italian</h3>
             </md-card-header-text>
 
           </md-card-header>

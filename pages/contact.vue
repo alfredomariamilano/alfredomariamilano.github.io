@@ -4,8 +4,8 @@
       <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">Here's my contact info</div>
-          <div class="md-subhead">You know, just in case</div>
+          <h1 class="md-title">Here's my contact info</h1>
+          <h3 class="md-subhead">You know, just in case</h3>
         </md-card-header>
 
         <md-card-content>

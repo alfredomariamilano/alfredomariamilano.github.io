@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import { mapGetters, mapMutations } from 'vuex'
 import Parallax from '~/plugins/parallax'
 
 export default {
@@ -24,12 +25,17 @@ export default {
       mode: 'out-in'
     }
   },
-  components: {
+  computed: {
+    ...mapGetters({getLoading: 'getLoading'})
+  },
+  methods: {
+    ...mapMutations({toggleLoading: 'toggleLoading'})
   },
   mounted () {
     const scene = document.getElementById('scene')
     const parallax = new Parallax(scene)
     console.log(parallax)
+    document.querySelector('.app-container').classList.add('visible')
   }
 }
 </script>
