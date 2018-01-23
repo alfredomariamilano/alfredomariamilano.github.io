@@ -3,9 +3,7 @@
     <div id="scene" class="">
       <div v-for="i in 9" :data-depth="i/100 + 0.5" class="layer" data-relative-input="true">
         <div class="centered">
-          <!-- <nuxt-link to="contact" style="pointer-events: all;"> -->
-            <h1 class="logo primary-font" :class="[i%2===1 ? 'accent-color' : 'primary-color']">alfredo</h1>
-          <!-- </nuxt-link> -->
+          <h1 class="logo primary-font" :class="[i%2===1 ? 'accent-color' : 'primary-color']">alfredo</h1>
         </div>
       </div>
     </div>

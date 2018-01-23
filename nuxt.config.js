@@ -18,15 +18,15 @@ module.exports = {
   */
   loading: { color: '#00ff96' },
   css: ['~/assets/scss/style.scss'],
-  // modules: [
-  //   'nuxt-vue-material'
-  // ],
+  modules: [
+    'nuxt-vue-material'
+  ],
   // vueMaterial: {
   //   theme: 'black-green-light',
   //   css: true
   // },
   plugins: [
-    { src: '~/plugins/vue-material.js', ssr: false },
+    // { src: '~/plugins/vue-material.js', ssr: true },
     { src: '~/plugins/fontawesome.js', ssr: true }
   ],
   /*
