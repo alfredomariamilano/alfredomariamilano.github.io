@@ -10,9 +10,9 @@
 
         <md-card-content>
           <ul class="fa-ul">
-            <li><a href="mailto:hi@alfredomm.com"><span class="fa-li"><fa :icon="['fal', 'envelope']"/></span>hi@alfredomm.com</a></li>
-            <li><a href="https://github.com/alfredomariamilano"><span class="fa-li"><fa :icon="['fab', 'github']"/></span>Github</a></li>
-            <li><a href="http://linkedin.com/in/alfredomariamilano"><span class="fa-li"><fa :icon="['fab', 'linkedin']"/></span>Linkedin</a></li>
+            <li><a href="mailto:hi@alfredomm.com" rel="noreferrer noopener"><span class="fa-li"><fa :icon="['fal', 'envelope']"/></span>hi@alfredomm.com</a></li>
+            <li><a href="https://github.com/alfredomariamilano" target="_blank" rel="noreferrer noopener"><span class="fa-li"><fa :icon="['fab', 'github']"/></span>Github</a></li>
+            <li><a href="http://linkedin.com/in/alfredomariamilano" target="_blank" rel="noreferrer noopener"><span class="fa-li"><fa :icon="['fab', 'linkedin']"/></span>Linkedin</a></li>
           </ul>
         </md-card-content>
       </md-ripple>
