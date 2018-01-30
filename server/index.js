@@ -12,14 +12,18 @@ app.use(morgan('dev', {
   skip: function (req, res) { return res.statusCode < 400 }
 }))
 
+const isDev = !(process.env.NODE_ENV === 'production')
+
 // Import and Set Nuxt.js options
 let configNuxt = require('../nuxt.config.js')
+
+configNuxt.dev = isDev
 
 // Init Nuxt.js
 const nuxt = new Nuxt(configNuxt)
 
 // Build only in dev mode
-if (configNuxt.dev || true) {
+if (configNuxt.dev) {
   const builder = new Builder(nuxt)
   builder.build()
 }
