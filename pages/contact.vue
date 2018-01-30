@@ -32,6 +32,9 @@ export default {
       name,
       mode: 'out-in'
     }
+  },
+  mounted () {
+    document.querySelector('.app-container').classList.add('visible')
   }
 }
 </script>
