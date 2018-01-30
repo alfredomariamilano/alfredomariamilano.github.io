@@ -85,7 +85,7 @@ app.use(morgan('dev', {
   }
 }));
 
-const isDev = !("development" === 'production');
+const isDev = !("production" === 'production');
 
 // Import and Set Nuxt.js options
 let configNuxt = __webpack_require__(5);

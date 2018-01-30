@@ -1,13 +1,13 @@
 <template lang="html">
   <nav class="navbar">
-    <nuxt-link to="contact" class="nuxt-link accent-color primary-color-hover">
-      <fa :icon="['fal', 'address-book']" size="1x"/>
-    </nuxt-link>
     <nuxt-link to="/about" class="nuxt-link accent-color primary-color-hover">
-      <fa :icon="['fal', 'info']" size="1x"/>
+      <fa :icon="['fas', 'info']" size="1x"/>
+    </nuxt-link>
+    <nuxt-link to="contact" class="nuxt-link accent-color primary-color-hover">
+      <fa :icon="['fas', 'address-book']" size="1x"/>
     </nuxt-link>
     <nuxt-link to="/" class="nuxt-link accent-color primary-color-hover">
-      <fa :icon="['fal', 'home']" size="1x"/>
+      <fa :icon="['fas', 'home']" size="1x"/>
     </nuxt-link>
   </nav>
 </template>
