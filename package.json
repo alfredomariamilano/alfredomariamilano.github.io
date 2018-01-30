@@ -8,6 +8,7 @@
     "dev": "backpack dev",
     "build": "nuxt build && backpack build",
     "start": "nuxt build && backpack build && cross-env forever build/main.js",
+    "now-start": "cross-env forever build/main.js",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "analyze": "nuxt build --analyze",
