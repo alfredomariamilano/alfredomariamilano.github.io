@@ -1,12 +1,12 @@
 <template lang="html">
   <nav class="navbar">
-    <nuxt-link to="/about" class="nuxt-link accent-color primary-color-hover">
+    <nuxt-link @click.native="trackClick" to="/about" class="nuxt-link accent-color primary-color-hover">
       <fa :icon="['fas', 'info']" size="1x"/>
     </nuxt-link>
-    <nuxt-link to="contact" class="nuxt-link accent-color primary-color-hover">
+    <nuxt-link @click.native="trackClick" to="contact" class="nuxt-link accent-color primary-color-hover">
       <fa :icon="['fas', 'address-book']" size="1x"/>
     </nuxt-link>
-    <nuxt-link to="/" class="nuxt-link accent-color primary-color-hover">
+    <nuxt-link @click.native="trackClick" to="/" class="nuxt-link accent-color primary-color-hover">
       <fa :icon="['fas', 'home']" size="1x"/>
     </nuxt-link>
   </nav>
@@ -17,6 +17,11 @@ export default {
   data () {
     return {
       hover: false
+    }
+  },
+  methods: {
+    trackClick (e) {
+      window.dataLayer.push({'event': 'click', 'from': window.location.pathname})
     }
   }
 }
