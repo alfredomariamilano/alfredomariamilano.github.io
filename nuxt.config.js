@@ -29,6 +29,9 @@ module.exports = {
     { src: '~/plugins/vue-material.js', ssr: true },
     { src: '~/plugins/fontawesome.js', ssr: true }
   ],
+  modules: [
+   ['@nuxtjs/google-tag-manager', { id: 'GTM-WJRRMS7' }],
+ ],
   /*
   ** Build configuration
   */
