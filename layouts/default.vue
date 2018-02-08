@@ -1,14 +1,14 @@
 <template>
-  <no-ssr>
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJRRMS7"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden">
-        </iframe>
-      </noscript>
-    </no-ssr>
   <div class="app-container">
+    <no-ssr>
+        <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJRRMS7"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden">
+          </iframe>
+        </noscript>
+      </no-ssr>
     <Navbar></Navbar>
     <nuxt/>
   </div>
