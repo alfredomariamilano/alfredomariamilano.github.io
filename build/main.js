@@ -135,6 +135,9 @@ module.exports = require("body-parser");
 /***/ (function(module, exports) {
 
 module.exports = {
+  router: {
+    base: '/'
+  },
   /*
   ** Headers of the page
   */
