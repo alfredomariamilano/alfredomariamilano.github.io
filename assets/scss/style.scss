@@ -11,6 +11,10 @@ accent: $accent-color // The accent or secondary color
 
 @import "~vue-material/dist/theme/all";
 
+.nuxt-link > * {
+  pointer-events: none;
+}
+
 html, body {
   width: 100%;
   min-height: 100%;

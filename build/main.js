@@ -85,7 +85,7 @@ app.use(morgan('dev', {
   }
 }));
 
-const isDev = !("production" === 'production');
+const isDev = !("development" === 'production');
 
 // Import and Set Nuxt.js options
 let configNuxt = __webpack_require__(5);
@@ -156,6 +156,7 @@ module.exports = {
   //   css: true
   // },
   plugins: [{ src: '~/plugins/vue-material.js', ssr: true }, { src: '~/plugins/fontawesome.js', ssr: true }],
+  modules: [['@nuxtjs/google-tag-manager', { id: 'GTM-WJRRMS7' }]],
   /*
   ** Build configuration
   */

@@ -1,4 +1,7 @@
 module.exports = {
+  router: {
+    base: '/'
+  },
   /*
   ** Headers of the page
   */
@@ -30,8 +33,8 @@ module.exports = {
     { src: '~/plugins/fontawesome.js', ssr: true }
   ],
   modules: [
-   ['@nuxtjs/google-tag-manager', { id: 'GTM-WJRRMS7' }],
- ],
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WJRRMS7' }]
+  ],
   /*
   ** Build configuration
   */
