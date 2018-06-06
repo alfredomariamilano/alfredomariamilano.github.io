@@ -3,7 +3,7 @@
     <nuxt-link to="/about" class="nuxt-link accent-color primary-color-hover">
       <fa :icon="['fas', 'info']" size="1x"/>
     </nuxt-link>
-    <nuxt-link to="contact" class="nuxt-link accent-color primary-color-hover">
+    <nuxt-link to="/contact" class="nuxt-link accent-color primary-color-hover">
       <fa :icon="['fas', 'address-book']" size="1x"/>
     </nuxt-link>
     <nuxt-link to="/" class="nuxt-link accent-color primary-color-hover">
